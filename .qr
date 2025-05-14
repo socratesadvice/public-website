@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url=https://socrates-server-1066886235428.northamerica-northeast2.run.app"/>
+
+    <title>Socrates Advice</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Noto Sans", sans-serif;
+            background-color: #f6f6f6;
+        }
+
+        .page {
+            min-height: 100vh;
+            max-width: 1024px;
+            margin: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page * {
+            align-content: center;
+        }
+
+        img.logo {
+            margin: 40px;
+            max-width: 260px;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="page center">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0HB4GXRFJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-L0HB4GXRFJ');
+    </script>
+    <img class="logo" src="images/Socrates%20logo.png" alt="Socrates Advice Logo"/>
+</body>
+</html>
